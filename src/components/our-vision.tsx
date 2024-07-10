@@ -4,13 +4,12 @@ import { Container } from "./craft";
 export default function VisionSection() {
   return (
     <>
-      <div className="container" id="vision">
-        <Container>
+        <Container id="vision">
           {/* Grid */}
-          <div className="grid gap-12">
+          <div className="grid gap-12 text-lg">
             <div>
               <h2 className="text-3xl font-bold lg:text-4xl">Our Vision</h2>
-              <p className="mt-3 text-muted-foreground">
+              <p className="mt-3 text-muted-foreground text-xl">
                 The Eureka Club is dedicated to fostering a collaborative and
                 innovative environment where students can explore, learn, and
                 create. Our vision is to become a hub for technological
@@ -20,9 +19,9 @@ export default function VisionSection() {
             <div className="space-y-6 lg:space-y-10">
               {/* Icon Block */}
               <div className="flex">
-                <Building2Icon className="flex-shrink-0 mt-7 h-6 w-6" />
+                <Building2Icon className="flex-shrink-0 mt-11 h-6 w-6" />
                 <div className="ms-5 sm:ms-8">
-                  <h3 className="text-base sm:text-lg font-semibold">
+                  <h3 className="text-xl font-semibold">
                     Promoting Innovation
                   </h3>
                   <p className="mt-1 text-muted-foreground">
@@ -35,9 +34,9 @@ export default function VisionSection() {
               {/* End Icon Block */}
               {/* Icon Block */}
               <div className="flex">
-                <Users2Icon className="flex-shrink-0 mt-7 h-6 w-6" />
+                <Users2Icon className="flex-shrink-0 mt-11 h-6 w-6" />
                 <div className="ms-5 sm:ms-8">
-                  <h3 className="text-base sm:text-lg font-semibold">
+                  <h3 className="text-xl font-semibold">
                     Building a Strong Community
                   </h3>
                   <p className="mt-1 text-muted-foreground">
@@ -50,9 +49,9 @@ export default function VisionSection() {
               {/* End Icon Block */}
               {/* Icon Block */}
               <div className="flex items-start">
-                <ThumbsUpIcon className="flex-shrink-0 mt-7 h-6 w-6" />
+                <ThumbsUpIcon className="flex-shrink-0 mt-11 h-6 w-6" />
                 <div className="ms-5 sm:ms-8">
-                  <h3 className="text-base sm:text-lg font-semibold">
+                  <h3 className="text-xl font-semibold">
                     Providing Learning Opportunities
                   </h3>
                   <p className="mt-1 text-muted-foreground">
@@ -67,8 +66,6 @@ export default function VisionSection() {
           </div>
           {/* End Grid */}
         </Container>
-      </div>
-      {/* End Icon Blocks */}
     </>
   );
 }
