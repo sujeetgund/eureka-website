@@ -7,16 +7,20 @@ import FeatureSet from "@/components/feature-set";
 import CTA from "@/components/cta";
 import Footer from "@/components/footer";
 import FAQ from "@/components/faq";
+import Newsletter from "@/components/newsletter";
+import VisionSection from "@/components/our-vision";
 
 export default function Home() {
   return (
     <Main>
       <Section>
         <Hero />
+        <VisionSection />
         <FeatureLeft />
         <FeatureRight />
         <FeatureSet />
-        <CTA />
+        <Newsletter />
+        {/* <CTA /> */}
         <FAQ />
         <Footer />
       </Section>

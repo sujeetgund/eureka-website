@@ -7,7 +7,7 @@ import * as Craft from "@/components/craft";
 import { Button } from "@/components/ui/button";
 
 // Asset imports
-import Placeholder from "../../public/placeholder.jpg";
+import Placeholder from "../../public/events.webp";
 
 const FeatureLeft = () => {
   return (

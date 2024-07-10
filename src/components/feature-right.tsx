@@ -7,7 +7,7 @@ import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
 
 // Asset imports
-import Placeholder from "../../public/placeholder.jpg";
+import Placeholder from "../../public/projects.jpg";
 
 const FeatureRight = () => {
   return (

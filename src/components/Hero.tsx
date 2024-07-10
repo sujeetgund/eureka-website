@@ -18,16 +18,7 @@ const Hero = () => {
     <Section>
       <Container>
         <div>
-          <Button
-            asChild
-            className="mb-6 w-fit"
-            size={"sm"}
-            variant={"outline"}
-          >
-            <Link className="not-prose" href="https://9d8.dev">
-              We Are Recruiting! <ArrowRight className="w-4" />
-            </Link>
-          </Button>
+          
           <div className="flex items-center justify-start space-x-4">
             <Image
               src={"/eureka.jpg"}
@@ -45,10 +36,20 @@ const Hero = () => {
               className="rounded-full"
             />
           </div>
+          <Button
+            asChild
+            className="mb-6 w-fit"
+            size={"sm"}
+            variant={"outline"}
+          >
+            <Link className="not-prose" href="https://9d8.dev">
+              We Are Recruiting! <ArrowRight className="w-4" />
+            </Link>
+          </Button>
           <h1>
             <Balancer>Welcome to the Eureka Club!</Balancer>
           </h1>
-          <p className="text-xl text-white">Innovate, Collaborate, Achieve</p>
+          <p className="text-xl font-medium">Innovate, Collaborate, Achieve</p>
           <h3 className="text-muted-foreground">
             <Balancer>
               The Eureka Club at VIT Bhopal University is your gateway to a
