@@ -25,7 +25,7 @@ export default function Footer() {
                 width={90}
                 height={90}
                 className="transition-all hover:opacity-75 rounded-full"
-              ></Image>
+              />
             </Link>
             <p>
               <Balancer>
@@ -36,21 +36,21 @@ export default function Footer() {
               </Balancer>
             </p>
             <p className="text-muted-foreground">
-              © <a href="https://github.com/brijr/components">Eureka Club</a>
+              © <a href="/">Eureka Club</a>
               {""} All rights reserved. 2024-present.
             </p>
           </div>
           <div className="flex flex-col gap-2">
             <h5>Website</h5>
-            <Link href="/">About Us</Link>
-            <Link href="/">Upcoming Events</Link>
-            <Link href="/">Blog</Link>
+            <Link href="#hero">About Us</Link>
+            <Link href="#events">Upcoming Events</Link>
+            <Link href="#blog">Blog</Link>
           </div>
           <div className="flex flex-col gap-2">
             <h5>Club</h5>
             <Link href="#vision">Our Vision</Link>
             <Link href="#team">Our Team</Link>
-            <Link href="/cookie-policy">Cookie Policy</Link>
+            <Link href="#projects">Current Projects</Link>
           </div>
         </Container>
       </Section>

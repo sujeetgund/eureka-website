@@ -18,7 +18,6 @@ const Hero = () => {
     <Section>
       <Container>
         <div>
-          
           <div className="flex items-center justify-start space-x-4">
             <Image
               src={"/eureka.jpg"}
@@ -46,7 +45,7 @@ const Hero = () => {
               We Are Recruiting! <ArrowRight className="w-4" />
             </Link>
           </Button>
-          <h1>
+          <h1 id="hero">
             <Balancer>Welcome to the Eureka Club!</Balancer>
           </h1>
           <p className="text-xl font-medium">Innovate, Collaborate, Achieve</p>

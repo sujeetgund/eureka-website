@@ -29,7 +29,9 @@ export function NavBar() {
       <div className="flex justify-between md:w-[720px] w-[95%] border dark:border-zinc-900 dark:bg-black bg-opacity-10 relative backdrop-filter backdrop-blur-lg bg-white border-white border-opacity-20 rounded-xl p-2 shadow-lg">
         <Dialog>
           <div className="flex justify-between items-center w-full mx-2 min-[825px]:hidden">
-            <h1 className="min-[825px]:hidden">Eureka Club</h1>
+            <Link href={"/"}>
+              <h1 className="min-[825px]:hidden">Eureka Club</h1>
+            </Link>
             <div>
               <SheetTrigger className="min-[825px]:hidden p-2 transition">
                 <MenuIcon />
@@ -87,7 +89,7 @@ export function NavBar() {
                     </Link>
                   </DialogClose>
                   <DialogClose asChild>
-                  <ModeToggle />
+                    <ModeToggle />
                   </DialogClose>
                 </div>
               </SheetContent>
