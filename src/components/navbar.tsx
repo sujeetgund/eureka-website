@@ -32,6 +32,8 @@ export function NavBar() {
             <Link href={"/"}>
               <h1 className="min-[825px]:hidden">Eureka Club</h1>
             </Link>
+            <div className="flex items-center">
+            <ModeToggle />
             <div>
               <SheetTrigger className="min-[825px]:hidden p-2 transition">
                 <MenuIcon />
@@ -88,11 +90,9 @@ export function NavBar() {
                       </Button>
                     </Link>
                   </DialogClose>
-                  <DialogClose asChild>
-                    <ModeToggle />
-                  </DialogClose>
                 </div>
               </SheetContent>
+            </div>
             </div>
           </div>
         </Dialog>

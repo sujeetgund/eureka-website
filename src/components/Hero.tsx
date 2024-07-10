@@ -41,7 +41,7 @@ const Hero = () => {
             size={"sm"}
             variant={"outline"}
           >
-            <Link className="not-prose" href="https://9d8.dev">
+            <Link className="not-prose" href="https://www.linkedin.com/company/theeurekaclub/" target="_blank">
               We Are Recruiting! <ArrowRight className="w-4" />
             </Link>
           </Button>

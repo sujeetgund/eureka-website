@@ -1,16 +1,15 @@
 import { Building2Icon, ThumbsUpIcon, Users2Icon } from "lucide-react";
+import { Container } from "./craft";
 
 export default function VisionSection() {
   return (
     <>
-      {/* Icon Blocks */}
-      {/* <div className="container py-12 lg:py-16"> */}
       <div className="container" id="vision">
-        <div className="max-w-2xl mx-auto">
+        <Container>
           {/* Grid */}
           <div className="grid gap-12">
             <div>
-              <h2 className="text-3xl font-bold lg:text-4xl">Our vision</h2>
+              <h2 className="text-3xl font-bold lg:text-4xl">Our Vision</h2>
               <p className="mt-3 text-muted-foreground">
                 The Eureka Club is dedicated to fostering a collaborative and
                 innovative environment where students can explore, learn, and
@@ -67,7 +66,7 @@ export default function VisionSection() {
             </div>
           </div>
           {/* End Grid */}
-        </div>
+        </Container>
       </div>
       {/* End Icon Blocks */}
     </>
