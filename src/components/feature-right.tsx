@@ -20,7 +20,7 @@ const FeatureRight = () => {
             span across AI, data science, and web development. Our projects are
             designed to provide hands-on experience, foster teamwork, and drive
             technological advancements. Explore some of our ongoing and
-            completed projects to see the impact we're making.
+            completed projects to see the impact we&apos;re making.
           </p>
           <div className="not-prose flex items-center gap-2">
             <Button className="w-fit" asChild>
