@@ -9,6 +9,7 @@ import Footer from "@/components/footer";
 import FAQ from "@/components/faq";
 import Newsletter from "@/components/newsletter";
 import VisionSection from "@/components/our-vision";
+import TeamSection from "@/components/team";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <FeatureLeft />
         <FeatureRight />
         <FeatureSet />
+        <TeamSection />
         <Newsletter />
         {/* <CTA /> */}
         <FAQ />

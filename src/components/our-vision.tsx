@@ -5,7 +5,7 @@ export default function VisionSection() {
     <>
       {/* Icon Blocks */}
       {/* <div className="container py-12 lg:py-16"> */}
-      <div className="container">
+      <div className="container" id="vision">
         <div className="max-w-2xl mx-auto">
           {/* Grid */}
           <div className="grid gap-12">

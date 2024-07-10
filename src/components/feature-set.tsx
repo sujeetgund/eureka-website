@@ -17,46 +17,44 @@ type FeatureText = {
 const featureText: FeatureText[] = [
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
-    href: "/",
+    title: "The Future of AI in Everyday Life",
+    href: "#",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    cta: "Learn More",
+      "Explore how artificial intelligence is revolutionizing daily tasks and what the future holds for this groundbreaking technology.",
+    cta: "Read More",
   },
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
-    href: "/",
+    title: "Building Web Applications with NextJS",
+    href: "#",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    cta: "Learn More",
+      " A comprehensive guide to developing modern web applications using NextJS, including tips and best practices.",
+    cta: "Read More",
   },
 ];
 
 const singleFeatureText: FeatureText[] = [
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
-    href: "/",
+    title: "Introduction to Machine Learning",
+    href: "#",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    cta: "Learn More",
+      "Learn the basics of machine learning, its applications, and how you can start building your own models.",
+    cta: "Read More",
   },
 ];
 
 const FeatureSet = () => {
   return (
-    <Section>
+    <Section id="blog">
       <Container className="not-prose">
         <div className="flex flex-col gap-6">
           <h3 className="text-4xl">
-            <Balancer>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </Balancer>
+            <Balancer>Eureka Club Blogs</Balancer>
           </h3>
           <h4 className="text-2xl font-light opacity-70">
             <Balancer>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Discover the latest insights and updates from the Eureka Club.
             </Balancer>
           </h4>
 
@@ -79,7 +77,7 @@ const FeatureSet = () => {
                     </div>
                   )}
                 </Link>
-              ),
+              )
             )}
           </div>
           <div>
@@ -101,7 +99,7 @@ const FeatureSet = () => {
                     </div>
                   )}
                 </Link>
-              ),
+              )
             )}
           </div>
         </div>

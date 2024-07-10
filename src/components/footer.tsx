@@ -47,9 +47,9 @@ export default function Footer() {
             <Link href="/">Blog</Link>
           </div>
           <div className="flex flex-col gap-2">
-            <h5>Legal</h5>
-            <Link href="/privacy-policy">Privacy Policy</Link>
-            <Link href="/terms-of-service">Terms of Service</Link>
+            <h5>Club</h5>
+            <Link href="#vision">Our Vision</Link>
+            <Link href="#team">Our Team</Link>
             <Link href="/cookie-policy">Cookie Policy</Link>
           </div>
         </Container>

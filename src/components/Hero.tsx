@@ -11,7 +11,7 @@ import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
 
 // Asset imports
-import Placeholder from "../../public/hero.jpeg";
+import Placeholder from "../../public/hero.webp";
 
 const Hero = () => {
   return (

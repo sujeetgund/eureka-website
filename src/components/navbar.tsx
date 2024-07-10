@@ -108,10 +108,10 @@ export function NavBar() {
           <Link href="#projects">
             <Button variant="ghost">Projects</Button>
           </Link>
-          <Link href="/blog">
+          <Link href="#blog">
             <Button variant="ghost">Blog</Button>
           </Link>
-          <Link href="/projects">
+          <Link href="#team">
             <Button variant="ghost">Our Team</Button>
           </Link>
           <ModeToggle />
