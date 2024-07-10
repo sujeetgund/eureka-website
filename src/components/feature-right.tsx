@@ -11,7 +11,7 @@ import Placeholder from "../../public/placeholder.jpg";
 
 const FeatureRight = () => {
   return (
-    <Section>
+    <Section id="projects">
       <Container className="grid items-stretch md:grid-cols-2 md:gap-12">
         <div className="flex flex-col gap-6 py-8">
           <h3 className="!my-0">About Our Projects</h3>

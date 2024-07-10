@@ -11,7 +11,7 @@ import Placeholder from "../../public/placeholder.jpg";
 
 const FeatureLeft = () => {
   return (
-    <Craft.Section>
+    <Craft.Section id="events">
       <Craft.Container className="grid items-stretch md:grid-cols-2 md:gap-12">
         <div className="not-prose relative flex h-96 overflow-hidden rounded-lg border">
           <Image

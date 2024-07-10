@@ -42,9 +42,9 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-2">
             <h5>Website</h5>
+            <Link href="/">About Us</Link>
+            <Link href="/">Upcoming Events</Link>
             <Link href="/">Blog</Link>
-            <Link href="/">Authors</Link>
-            <Link href="/">Categories</Link>
           </div>
           <div className="flex flex-col gap-2">
             <h5>Legal</h5>
